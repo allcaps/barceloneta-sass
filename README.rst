@@ -1,5 +1,5 @@
-Barceloneta, a theme for Plone 5
-================================
+Barceloneta-SASS
+================
 
 DISCLAIMER: WORK IN PROGRESS
 
