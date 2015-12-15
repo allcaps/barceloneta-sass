@@ -1,0 +1,69 @@
+//*// PLONE 5 BARCELONETA LESS //*//
+
+//*// Font families
+@import "fonts";
+
+//*// Core variables and mixins
+@import "variables";
+@import "mixin.prefixes";
+@import "mixin.tabfocus";
+@import "mixin.images";
+@import "mixin.forms";
+@import "mixin.borderradius";
+@import "mixin.buttons";
+@import "mixin.clearfix";
+@import "mixin.gridframework"; //grid Bootstrap
+@import "mixin.grid"; //grid Bootstrap
+
+//*// Reset and dependencies
+@import "normalize";
+@import "print";
+
+//*// Core CSS
+@import "scaffolding";
+@import "type";
+@import "code";
+//@import "deco"; //uncomment for deco variant
+@import "grid"; //grid Bootstrap
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "states";
+
+//*// Components
+@import "breadcrumbs";
+@import "pagination";
+@import "formtabbing"; //pattern
+@import "views";
+@import "thumbs";
+@import "alerts";
+@import "portlets";
+@import "controlpanels";
+@import "tags";
+@import "contents";
+
+//*// Patterns
+@import "accessibility";
+@import "toc";
+@import "dropzone";
+@import "modal";
+@import "pickadate";
+@import "sortable";
+@import "tablesorter";
+@import "tooltip";
+@import "tree";
+
+//*// Structure
+@import "header";
+@import "sitenav";
+@import "main";
+@import "footer";
+@import "loginform";
+@import "sitemap";
+
+//*// Products
+@import "event";
+@import "image";
+@import "behaviors";
+@import "discussion";
+@import "search";

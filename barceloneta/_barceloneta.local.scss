@@ -1,0 +1,35 @@
+$plone-gray-light:                          lighten(#000, 46.5%) !default;
+$plone-link-color:                          #007bb3 !default; //plone blue
+$plone-gray-lighter:                        lighten(#000, 80%) !default;   // #ccc //disableds like
+
+//*// TOOLBAR
+$plone-toolbar-bg:                          rgba(0,0,0,.9) !default;
+$plone-toolbar-submenu-bg:                  rgba(20,20,20,.95) !default;
+$plone-toolbar-font-primary:                'Roboto Condensed', sans-serif !default;
+$plone-toolbar-font-secundary:              'Roboto', sans-serif !default;
+$plone-toolbar-separator-color:             rgba(255,255,255,.17) !default;
+$plone-toolbar-link:                        $plone-link-color !default;
+$plone-toolbar-text-color:                  rgba(255,255,255,.9) !default;   
+$plone-toolbar-submenu-text-color:          #ffffff !default;
+$plone-toolbar-submenu-header-color:        lighten(#000, 80%) !default;
+$plone-toolbar-published-color:             $plone-link-color !default; //published and external same color
+$plone-toolbar-draft-color:                 #fab82a !default; // lime-yellow //draft is visible 
+$plone-toolbar-pending-color:               #e2e721 !default; // orange
+$plone-toolbar-private-color:               #c4183c !default; // red
+$plone-toolbar-internal-color:              #fab82a !default; // is draft
+$plone-toolbar-internally-published-color:  #883dfa !default; // is intranet
+$plone-screen-xs-min:                       480px !default;
+$plone-screen-sm-min:                       768px !default;
+$plone-screen-md-min:                       992px !default;
+$plone-screen-lg-min:                       1200px !default;
+
+
+$plone-left-toolbar-expanded:               120px !default;
+$plone-left-toolbar:                        60px !default;
+
+//*// DEVICES
+$plone-container-sm:                        750px !default;
+$plone-container-md:                        970px !default;
+$plone-container-lg:                        1170px !default;
+
+//@import "barceloneta";
